@@ -1,0 +1,32 @@
+{
+  "modelo_escolhido": "XGBoost",
+  "comparacao_modelos": {
+    "Random Forest": 0.1925872708851432,
+    "XGBoost": 0.19544231499364467,
+    "Vencedor": "XGBoost"
+  },
+  "diferenca_modelos": 0.002855044108501459,
+  "f1_score_final": 0.22203955409058923,
+  "economia_anual": 1210000.0,
+  "roi_primeiro_ano": 142.0,
+  "payback_anos": 0.4132231404958678,
+  "performance_por_tipo": {
+    "FDF": 0.05970149253731343,
+    "FDC": 0.1774193548387097,
+    "FP": 0.45,
+    "FTE": 0.4230769230769231,
+    "FA": 0
+  },
+  "limitacoes_principais": [
+    "Dados insuficientes para FDF e FA",
+    "Compara\u00e7\u00e3o limitada a RF vs XGBoost (XGBoost venceu)",
+    "Trade-off recall vs precision",
+    "Valida\u00e7\u00e3o limitada - necessita teste piloto"
+  ],
+  "proximos_passos": [
+    "Implementa\u00e7\u00e3o piloto com XGBoost",
+    "Coleta de mais dados hist\u00f3ricos",
+    "Teste de algoritmos adicionais",
+    "Refinamento cont\u00ednuo baseado na opera\u00e7\u00e3o"
+  ]
+}
