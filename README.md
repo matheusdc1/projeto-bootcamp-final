@@ -101,8 +101,13 @@ O projeto está em fase inicial, mas já gera **insights valiosos** sobre os tip
 ---
 
 ## 🚀 Como Usar
-1. Instale dependências:
 
+1. Clone este repositório:
+```bash
+git clone https://github.com/matheusdc1/projeto-bootcamp-final.git
+```
+
+2. Instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
@@ -120,3 +125,4 @@ Os resultados serão gerados na pasta results/:
 - casos_criticos.csv            # Amostras com alto risco (>30%)
 - predicoes_para_api.csv         # Predições prontas para API
 - resumo_negocio.json           # Resumo do modelo, métricas e impacto financeiro
+
