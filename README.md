@@ -85,11 +85,7 @@ O projeto está em fase inicial, mas já gera **insights valiosos** sobre os tip
 - **F1-score médio (cross-validation):** 0.230  
 - **F1-score final XGBoost (threshold otimizado):** 0.222  
 - **Comparação RF vs XGBoost:** RF 0.193 | XGBoost 0.195  
-- **Casos críticos (>70% risco):** 10 amostras  
-- **Impacto financeiro simulado:**  
-  - Economia anual: R$ 200.000 💵  
-  - ROI 1º ano: 20% 📈  
-  - Payback estimado: 2,5 anos ⏳  
+- **Casos críticos (>70% risco):** 10 amostras    
 
 ---
 
